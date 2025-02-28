@@ -10,7 +10,7 @@ img {
 }
 
 body {
-    height: 100vh;
+    height: 100svh;
     background-color: black;
     color: #fff;
     font-family: "OpenSans", Helvetica, Arial;
@@ -185,7 +185,7 @@ h1, h2, #greeting {
 
 .introduction {
     max-width: 700px;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding-top: 0.5em;
 }
 
@@ -214,7 +214,7 @@ h1, h2, #greeting {
         margin: 0 auto;
     }
     .introduction {
-        width: 100%;
+        max-width: 100%;
     }
 }
 
@@ -223,7 +223,7 @@ h1, h2, #greeting {
 .btn {
     padding: 1em;
     display: inline-block;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     border-radius: 8px;
     text-decoration: none;
 }
@@ -270,7 +270,7 @@ h1, h2, #greeting {
     gap: 1em;
     padding-right: 1em;
     border-right: 1px solid #CA6510;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .service-div:first-of-type {
@@ -297,9 +297,10 @@ h1, h2, #greeting {
 
 #about p {
     width: 100%;
-    max-width: 50%;
+    max-width: 60%;
+    min-width: 500px;
     margin: 0 auto;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -311,8 +312,11 @@ h1, h2, #greeting {
 }
 
 @media (max-width: 1170px) {
-    #about img, p {
+    #about img {
         max-width: 100%;
+    }
+    #about p {
+        max-width: 80%;
     }
 }
 
@@ -344,7 +348,7 @@ h1, h2, #greeting {
 #skills .items h4 {
     display: inline-block;
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 /* PROJECTS */
@@ -360,7 +364,7 @@ h1, h2, #greeting {
 .card-title {
     text-align: center;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding-bottom: 1.2em;
 }
 
@@ -428,7 +432,7 @@ h1, h2, #greeting {
 }
 
 #contact-div h3{
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 1em;
     text-decoration: underline;
 }
