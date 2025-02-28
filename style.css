@@ -313,11 +313,8 @@ h1, h2, #greeting {
 }
 
 @media (max-width: 1170px) {
-    #about img {
+    #about img, #about p {
         max-width: 100%;
-    }
-    #about p {
-        max-width: 80%;
     }
 }
 
