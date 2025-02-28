@@ -129,6 +129,7 @@ section > div {
         border-bottom: 3px solid #CA6510;
         border-radius: 2px;
         padding: 1em 0;
+        font-size: 2rem;
     }
 
     .nav-links:hover {
