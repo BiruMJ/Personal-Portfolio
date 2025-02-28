@@ -10,7 +10,7 @@ img {
 }
 
 body {
-    height: 100svh;
+    height: 100vh;
     background-color: black;
     color: #fff;
     font-family: "OpenSans", Helvetica, Arial;
@@ -48,7 +48,7 @@ section > div {
 }
 
 .brand {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .neon {
@@ -65,7 +65,6 @@ section > div {
     align-items: center;
     gap: 2em;
     list-style-type: none;
-    font-size: min(3vw, 1rem);
 }
 
 .nav-list li {
@@ -93,8 +92,8 @@ section > div {
 }
 
 .icons {
-    width: 2em;
-    height: 2em;
+    width: 50px;
+    height: 50px;
 }
 
 @media (max-width: 1170px) {
@@ -167,7 +166,7 @@ h1, h2, #greeting {
 }
 
 .home-container-left h1 {
-    font-size: min(10vw, 6rem);
+    font-size: min(10vw, 7rem);
     font-family: "Ubuntu", serif;
     font-weight: 700;
     letter-spacing: 2px;
@@ -179,14 +178,14 @@ h1, h2, #greeting {
 #role {
     display: inline-block;
     padding: 0.5em 0;
-    font-size: min(5vw, 2.5rem);
+    font-size: 3rem;
     color: #CA6510;
     font-family: "Ubuntu", serif;
 }
 
 .introduction {
     max-width: 700px;
-    font-size: min(4vw, 1.4rem);
+    font-size: 1.5rem;
     padding-top: 0.5em;
 }
 
@@ -213,6 +212,9 @@ h1, h2, #greeting {
         width: 50%;
         margin: 0 auto;
     }
+    .introduction {
+        width: 100%;
+    }
 }
 
 /* Buttons */
@@ -220,7 +222,7 @@ h1, h2, #greeting {
 .btn {
     padding: 1em;
     display: inline-block;
-    font-size: min(3vw, 1.2rem);
+    font-size: 1.5rem;
     border-radius: 8px;
     text-decoration: none;
 }
@@ -250,7 +252,7 @@ h1, h2, #greeting {
 
 .services > h2 {
     color: #CA6510;
-    font-size: min(4vw, 1.5rem);
+    font-size: 2rem;
 }
 
 .services-info {
@@ -267,7 +269,7 @@ h1, h2, #greeting {
     gap: 1em;
     padding-right: 1em;
     border-right: 1px solid #CA6510;
-    font-size: min(3vw, 1.2rem);
+    font-size: 1.5rem;
 }
 
 .service-div:first-of-type {
@@ -286,7 +288,7 @@ h1, h2, #greeting {
 /* ABOUT */
 
 .section-title {
-    font-size: min(6vw, 2.5rem);
+    font-size: 3rem;
     padding-bottom: 1em;
     font-weight: 500;
     text-align: center;
@@ -296,16 +298,15 @@ h1, h2, #greeting {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
-    font-size: min(4vw, 1.4rem);
+    font-size: 1.5rem;
     text-align: center;
-    margin-bottom: 3em;
 }
 
 #about img {
     display: block;
     width: 100%;
     max-width: 80%;
-    margin: 0 auto;
+    margin: 3em auto 0;
 }
 
 @media (max-width: 1170px) {
@@ -342,7 +343,7 @@ h1, h2, #greeting {
 #skills .items h4 {
     display: inline-block;
     color: black;
-    font-size: min(3vw, 1.3rem);
+    font-size: 1.5rem;
 }
 
 /* PROJECTS */
@@ -355,21 +356,10 @@ h1, h2, #greeting {
     gap: 100px;
 }
 
-.project-item-small {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.project-item-small h3 {
-    font-size: min(4vw, 1.2rem);
-}
-
 .card-title {
     text-align: center;
     font-weight: 400;
-    font-size: min(4vw, 1.4rem);
+    font-size: 2rem;
     padding-bottom: 1.2em;
 }
 
@@ -421,13 +411,13 @@ h1, h2, #greeting {
 }
 
 #contact-div h2 {
-    font-size: min(8vw, 5rem);
+    font-size: 5rem;
     margin-bottom: 0.5em;
     font-weight: 500;
 }
 
 #contact-email {
-    font-size: min(3vw, 1.5rem);
+    font-size: 2rem;
     display: inline-block;
     padding-bottom: 1em;
 }
@@ -437,7 +427,7 @@ h1, h2, #greeting {
 }
 
 #contact-div h3{
-    font-size: min(4vw, 2rem);
+    font-size: 3rem;
     margin-bottom: 1em;
     text-decoration: underline;
 }
@@ -464,7 +454,7 @@ h1, h2, #greeting {
 {
     padding: 3em 0;
     margin: 0 auto;
-    font-size: min(3vw, 0.8rem);
+    font-size: 1.5rem;
     text-align: center;
     color: #fff;
     background-color: #000;
