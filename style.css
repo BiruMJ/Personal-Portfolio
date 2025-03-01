@@ -336,7 +336,7 @@ h1, h2, #greeting {
     align-items: center;
     flex-direction: column;
     background-color: #fff;
-    padding: 2em;
+    padding: 2em 0;
     border-radius: 20px;
 }
 
