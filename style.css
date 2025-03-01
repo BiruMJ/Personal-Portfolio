@@ -48,7 +48,7 @@ section > div {
 }
 
 .brand {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .neon {
@@ -68,7 +68,6 @@ section > div {
 }
 
 .nav-list li {
-    font-weight: 700;
     letter-spacing: 1.8px;
     text-transform: uppercase;
     padding: 0.5em;
@@ -97,6 +96,7 @@ section > div {
 }
 
 @media (max-width: 1170px) {
+    .brand { font-size: 2rem; }
     .container-header, .nav-list {
         flex-direction: column;
         justify-content: center;
@@ -116,6 +116,7 @@ section > div {
     }
 
     .nav-list li {
+        font-weight: 700;
         padding: 0;
     }
     
@@ -162,11 +163,11 @@ h1, h2, #greeting {
 }
 
 #greeting {
-    font-size: 1.4rem;
+    font-size: 2.5rem;
 }
 
 .home-container-left h1 {
-    font-size: min(15vw, 7rem);
+    font-size: min(10vw, 7rem);
     font-family: "Ubuntu", serif;
     font-weight: 700;
     letter-spacing: 2px;
@@ -184,7 +185,7 @@ h1, h2, #greeting {
 
 .introduction {
     max-width: 700px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding-top: 0.5em;
 }
 
@@ -212,7 +213,9 @@ h1, h2, #greeting {
         width: 50%;
         margin: 0 auto;
     }
+    #role, #greeting { font-size: 2.5rem; }
     .introduction {
+        font-size: 1.4rem;
         max-width: 100%;
     }
 }
@@ -220,9 +223,9 @@ h1, h2, #greeting {
 /* Buttons */
 
 .btn {
-    padding: 0.5em;
+    padding: 0.8em;
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     border-radius: 8px;
     text-decoration: none;
 }
@@ -269,7 +272,7 @@ h1, h2, #greeting {
     gap: 1em;
     padding-right: 1em;
     border-right: 1px solid #CA6510;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .service-div:first-of-type {
@@ -298,7 +301,7 @@ h1, h2, #greeting {
     width: 100%;
     max-width: 60%;
     margin: 0 auto;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: center;
 }
 
@@ -359,7 +362,6 @@ h1, h2, #greeting {
 .card-title {
     text-align: center;
     font-weight: 400;
-    font-size: 1.5rem;
     padding-bottom: 1.2em;
 }
 
@@ -454,7 +456,7 @@ h1, h2, #greeting {
 {
     padding: 2em 0;
     margin: 0 auto;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
     color: #fff;
     background-color: #000;
