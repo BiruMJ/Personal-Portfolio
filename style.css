@@ -129,7 +129,6 @@ section > div {
         border-bottom: 3px solid #CA6510;
         border-radius: 2px;
         padding: 1em 0;
-        font-size: 1.2rem;
     }
 
     .nav-links:hover {
@@ -163,15 +162,14 @@ h1, h2, #greeting {
 }
 
 #greeting {
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 .home-container-left h1 {
-    font-size: min(10vw, 7rem);
+    font-size: min(15vw, 7rem);
     font-family: "Ubuntu", serif;
     font-weight: 700;
     letter-spacing: 2px;
-    line-height: 1em;
     text-transform: none;
     padding-top: 0.2em;
 }
@@ -194,7 +192,7 @@ h1, h2, #greeting {
     display: flex;
     justify-content: flex-start;
     margin-top: 3em;
-    gap: 30px;
+    gap: 20px;
 }
 
 .home-container-right {
@@ -254,7 +252,7 @@ h1, h2, #greeting {
 
 .services > h2 {
     color: #CA6510;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .services-info {
@@ -271,7 +269,7 @@ h1, h2, #greeting {
     gap: 1em;
     padding-right: 1em;
     border-right: 1px solid #CA6510;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .service-div:first-of-type {
@@ -290,7 +288,7 @@ h1, h2, #greeting {
 /* ABOUT */
 
 .section-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-bottom: 1em;
     font-weight: 500;
     text-align: center;
@@ -338,14 +336,14 @@ h1, h2, #greeting {
     align-items: center;
     flex-direction: column;
     background-color: #fff;
-    padding: 3em 0;
+    padding: 2em;
     border-radius: 20px;
 }
 
 #skills .items h4 {
     display: inline-block;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 /* PROJECTS */
