@@ -213,9 +213,9 @@ h1, h2, #greeting {
         width: 50%;
         margin: 0 auto;
     }
-    #role, #greeting { font-size: 2.5rem; }
+    #role, #greeting { font-size: 2rem; }
     .introduction {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         max-width: 100%;
     }
 }
@@ -225,7 +225,7 @@ h1, h2, #greeting {
 .btn {
     padding: 0.8em;
     display: inline-block;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     border-radius: 8px;
     text-decoration: none;
 }
@@ -301,7 +301,7 @@ h1, h2, #greeting {
     width: 100%;
     max-width: 60%;
     margin: 0 auto;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -448,6 +448,7 @@ h1, h2, #greeting {
     #contact-div, #contact-bg {
         width: 100%;
     }
+    #contact-div h2 { font-size: 3rem; }
 }
 
 /* FOOTER */
